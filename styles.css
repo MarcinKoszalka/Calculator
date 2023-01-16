@@ -40,7 +40,7 @@ body {
     background-color: rgba(29,27,27,0.151);
     webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
     -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 4px 4px 12px 0px rgba(66, 68, 90, 1);
     color: white;
     word-break: break-all;
     text-align: right;
@@ -74,6 +74,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 2px;
+    padding: 10px 0px;
 }
 
 .panel button {
